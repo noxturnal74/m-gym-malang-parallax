@@ -3,126 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>M Gym Malang | Premium Fitness Landing Page</title>
-  <meta name="description" content="M Gym Malang is presented as a premium parallax fitness landing page for Malang, East Java. The page focuses on strong brand presence, clear conversion paths, responsive performance, and local trust signals.">
+  <title>M Gym Malang | Malang Gym Landing Page</title>
+  <meta name="description" content="M Gym Malang is a Malang local gym in Malang. The page presents facilities, training options, membership direction, and contact paths in a direct local-gym style.">
   <meta name="theme-color" content="#16a34a">
-  <meta property="og:title" content="M Gym Malang | Local Malang training with a premium member journey.">
-  <meta property="og:description" content="M Gym Malang is presented as a premium parallax fitness landing page for Malang, East Java. The page focuses on strong brand presence, clear conversion paths, responsive performance, and local trust signals.">
+  <meta property="og:title" content="M Gym Malang">
+  <meta property="og:description" content="Give new members a clear view of the gym floor, training support, and how to visit without relying only on social media.">
   <meta property="og:image" content="/gyms/m-gym-malang/hero.jpg">
   <meta property="og:type" content="website">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="variant-clean" style="--primary:#16a34a;--secondary:#f97316;--font-heading:'Montserrat',sans-serif;--font-body:'Inter',sans-serif;--hero-image:url('/gyms/m-gym-malang/hero.jpg');">
+<body class="variant-clean-grid" style="--primary:#16a34a;--secondary:#f97316;--font-heading:'Montserrat',sans-serif;--font-body:'Inter',sans-serif;--hero-image:url('/gyms/m-gym-malang/hero.jpg');">
   <div class="progress" id="progress"></div>
-  <nav class="nav">
-    <a class="brand" href="#home" aria-label="M Gym Malang home">
-      <span class="logo-shell nav-logo" data-logo>
-            <img src="/gyms/m-gym-malang/logo.png" alt="M Gym Malang logo" loading="eager">
-            <span class="logo-fallback" aria-hidden="true">MG</span>
-          </span>
-      <span>M Gym Malang</span>
-    </a>
-    <div class="nav-links">
-      <a href="#programs">Programs</a>
-      <a href="#experience">Experience</a>
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#home"><span class="text-logo ">M <em>Gym Malang</em></span></a>
+    <div class="nav-links"><a href="#programs">Facilities</a>
+      <a href="#coaching">Training</a>
       <a href="#membership">Membership</a>
-      <a href="#contact">Contact</a>
-    </div>
+      <a href="#location">Malang Location</a></div>
   </nav>
   <main>
-    <section id="home" class="hero hero-clean">
+    <section id="home" class="hero">
       <div class="hero-bg" aria-hidden="true"></div>
-      <div class="hero-content">
-        <span class="logo-shell hero-logo" data-logo>
-            <img src="/gyms/m-gym-malang/logo.png" alt="M Gym Malang logo" loading="eager">
-            <span class="logo-fallback" aria-hidden="true">MG</span>
-          </span>
-        <p class="eyebrow">Malang / East Java</p>
-        <h1>M Gym Malang</h1>
-        <p class="lead">Local Malang training with a premium member journey.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#membership">Visit M Gym</a>
-          <a class="button ghost" href="#experience">View Experience</a>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="text-logo hero-brand">M <em>Gym Malang</em></span>
+          <p class="eyebrow">Malang local gym / Malang</p>
+          <h1>M Gym Malang</h1>
+          <p class="lead">Give new members a clear view of the gym floor, training support, and how to visit without relying only on social media.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#programs">Explore Gym</a>
+            <a class="button ghost" href="#location">Find Location</a>
+          </div>
         </div>
+        <aside class="quick-panel parallax-section" data-parallax="0.035">
+          <p>Quick look</p>
+          <strong>Malang</strong>
+          <span>A Malang gym page focused on facilities, routine, and results.</span>
+        </aside>
       </div>
-      <aside class="hero-card parallax-section" data-parallax="0.13">
-        <span>Clean Modern Fitness</span>
-        <strong>editorial lift</strong>
-        <p>Lightweight panels, crisp spacing, and conversion clarity.</p>
-      </aside>
     </section>
-    <section id="programs" class="section programs">
+    <section id="programs" class="section section-programs">
       <div class="section-heading">
-        <p>editorial lift</p>
-        <h2>Training built around visible progress.</h2>
+        <p>Facilities</p>
+        <h2>What you can train here.</h2>
+        <span>M Gym Malang is positioned as a practical Malang local gym, not a generic luxury concept.</span>
       </div>
-      <div class="program-grid"><article class="program-card">
-          <span>01</span>
-          <h3>Strength Floor</h3>
-          <p>Free weights, guided progression, and focused hypertrophy sessions.</p>
-        </article>
-<article class="program-card">
-          <span>02</span>
-          <h3>Studio Energy</h3>
-          <p>Group class moments designed for cardio, rhythm, and retention.</p>
-        </article>
-<article class="program-card">
-          <span>03</span>
-          <h3>Personal Coaching</h3>
-          <p>Clear goals, assessments, and consistent accountability.</p>
-        </article></div>
+      <div class="card-grid"><article><b>01</b><h3>Gym Floor</h3><p>Equipment and training zones for everyday strength work at M Gym Malang.</p></article>
+        <article><b>02</b><h3>Cardio & Conditioning</h3><p>Simple options for stamina, fat loss, warm-ups, and active recovery.</p></article>
+        <article><b>03</b><h3>Beginner Friendly</h3><p>Clear first-step guidance so new visitors know where to start.</p></article></div>
     </section>
-<section class="section proof parallax-section" data-parallax="0.10">
-      <div class="metric-strip">
-        <div><strong>Malang</strong><span>Local market</span></div>
-        <div><strong>Clean Modern Fitness</strong><span>Visual system</span></div>
-        <div><strong>0</strong><span>Broken image dependency</span></div>
-        <div><strong>5</strong><span>Reusable layout families</span></div>
+    <section id="membership" class="section membership-section">
+      <div class="membership-panel">
+        <p>Membership</p>
+        <h2>Make the first visit easy to decide.</h2>
+        <div class="mini-grid">
+          <span>Daily visit</span>
+          <span>Monthly access</span>
+          <span>Coaching add-on</span>
+        </div>
+        <p class="body-copy">This page is structured for real enquiries: visitors can scan facilities, understand the training offer, and move directly to location or contact.</p>
+        <a class="button primary" href="#location">Explore Gym</a>
       </div>
     </section>
-<section id="membership" class="section membership">
-      <div class="membership-card parallax-section" data-parallax="0.06">
-        <p>Membership Focus</p>
-        <h2>Make the first visit feel obvious.</h2>
+    <section id="coaching" class="section split-section">
+      <div class="visual-card parallax-section" data-parallax="0.045">
+        <img src="/gyms/m-gym-malang/gallery-1.jpg" alt="M Gym Malang facility preview" loading="lazy" data-fallback-image>
+        <div class="image-placeholder"><span>M Gym Malang</span></div>
+      </div>
+      <div class="split-copy">
+        <p>Training support</p>
+        <h2>Programs that match the way local members train.</h2>
         <ul>
-          <li>Clear CTA for WhatsApp, Instagram, or Maps traffic.</li>
-          <li>Responsive layout with no external image hotlinks.</li>
-          <li>Local asset paths that Vercel can serve predictably.</li>
+          <li>Strength routines for consistent weekly progress.</li>
+          <li>Conditioning sessions for stamina and body composition.</li>
+          <li>Coaching touchpoints for members who want more structure.</li>
         </ul>
-        <a class="button primary" href="#contact" target="_blank" rel="noreferrer">Visit M Gym</a>
       </div>
     </section>
-<section id="experience" class="section experience parallax-section" data-parallax="-0.08">
-      <div class="media-panel">
-        <img src="/gyms/m-gym-malang/gallery-1.jpg" alt="M Gym Malang training atmosphere" loading="lazy" data-fallback-image>
-        <div class="image-placeholder"><span>MG</span></div>
-      </div>
-      <div class="copy-panel">
-        <p>Clean Modern Fitness</p>
-        <h2>Local Malang training with a premium member journey.</h2>
-        <p>M Gym Malang is presented as a premium parallax fitness landing page for Malang, East Java. The page focuses on strong brand presence, clear conversion paths, responsive performance, and local trust signals.</p>
-        <p>Lightweight panels, crisp spacing, and conversion clarity.</p>
-      </div>
-    </section>
-<section id="contact" class="section contact">
+    <section id="location" class="section location-section">
       <div>
         <p>Location</p>
         <h2>Malang, East Java</h2>
-        <p>Use this page as a production-ready digital front door for local search, Instagram traffic, and direct member inquiries.</p>
+        <span>Give new members a clear view of the gym floor, training support, and how to visit without relying only on social media.</span>
       </div>
-      <div class="contact-actions">
-        <a class="button" href="#contact" target="_blank" rel="noreferrer">Open Maps</a>
-        <a class="button ghost" href="#contact" target="_blank" rel="noreferrer">Instagram</a>
+      <div class="location-actions">
+        <a class="button primary" href="#home" target="_blank" rel="noreferrer">Find Location</a>
+        <a class="button ghost" href="#home" target="_blank" rel="noreferrer">Instagram</a>
       </div>
     </section>
   </main>
   <footer class="footer">
-    <span>M Gym Malang</span>
-    <p>Local assets: /gyms/m-gym-malang/logo.png and /gyms/m-gym-malang/hero.jpg</p>
+    <b>M Gym Malang</b>
+    <span>Malang local gym in Malang</span>
   </footer>
   <script src="script.js"></script>
 </body>
